@@ -7,15 +7,12 @@ import matplotlib.pyplot as plt
 from time import sleep
 
 # healthy or disease
-s = ""
+s = "disease"
 
 ##### メルスペクトログラムを可視化 #####
 def merspectrogram(mer, file_path):
-    plt.figure(figsize=(15,5))
-    plt.title("Mer Spectrogram")
-    librosa.display.specshow(S_dB, sr=sr, x_axis="time", y_axis="hz")
-    plt.colorbar(format='%+2.0f dB')
-    plt.tight_layout()
+    plt.figure(figsize=(5,5))
+    librosa.display.specshow(mer, sr=sr)
     plt.savefig("data/mer_spectrogram_images/{}/{}".format(s, file_path)) # ex 00001.jpg
 
 ##### スペクトログラムのMFCCを可視化 #####
@@ -55,5 +52,5 @@ for file_path in voice_data:
     file_path = file_path.replace(".wav", ".jpg") # パスをwavからjpgに変換
     file_path = file_path.split("/")[-1] # フォルダ名削除
     file_path = file_path.split("\\")[1] # フォルダ名削除
-    mfccspectrogram(mfcc, file_path)
+    merspectrogram(S_dB, file_path)
     sleep(0.5)
