@@ -1,7 +1,5 @@
 .py
 breath_in_data/*
 breath_out_data/*
-data/mfcc_spectrogram_images/*
-data/spectrogram_images/*
-data/voice_datasets/*
+data/*
 *.h5
