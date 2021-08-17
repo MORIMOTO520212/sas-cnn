@@ -43,3 +43,5 @@ https://note.nkmk.me/python-sklearn-train-test-split/
 https://qiita.com/kenichiro-yamato/items/60affeb7ca9f67c87a17  
 [11] 機械学習／ディープラーニングにおけるバッチサイズ、イテレーション数、エポック数の決め方  
 https://qiita.com/kenta1984/items/bad75a37d552510e4682  
+[12] Kerasモデルの保存と読み込み  
+https://www.tensorflow.org/guide/keras/save_and_serialize?hl=ja  
