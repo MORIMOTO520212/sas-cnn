@@ -45,3 +45,5 @@ https://qiita.com/kenichiro-yamato/items/60affeb7ca9f67c87a17
 https://qiita.com/kenta1984/items/bad75a37d552510e4682  
 [12] Kerasモデルの保存と読み込み  
 https://www.tensorflow.org/guide/keras/save_and_serialize?hl=ja  
+[13] [Keras] クラスごとのAccuracy, Precision, Recall, F-measureをmetricsを利用してTensorBoardで確認する  
+https://qiita.com/shiita0903/items/838d50598cc28766f84e  

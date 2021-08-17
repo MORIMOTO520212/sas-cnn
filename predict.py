@@ -16,4 +16,3 @@ X = np.array((Image.open(image_path)).resize((224,224)))
 test_image = np.array([X])
 pred = model.predict(test_image)
 print(pred) # 1枚目のテストデータの予測
-
