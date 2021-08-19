@@ -47,3 +47,5 @@ https://qiita.com/kenta1984/items/bad75a37d552510e4682
 https://www.tensorflow.org/guide/keras/save_and_serialize?hl=ja  
 [13] [Keras] クラスごとのAccuracy, Precision, Recall, F-measureをmetricsを利用してTensorBoardで確認する  
 https://qiita.com/shiita0903/items/838d50598cc28766f84e  
+[14] [TensorFlow] Custom Metrics Functionを使っているmodelのリストア方法  
+https://qiita.com/tkinjo1/items/51f9e2d0d9c4659bde8a  
