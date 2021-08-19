@@ -7,7 +7,7 @@ from PIL import Image
 test_image = []
 
 # モデルの読み込み
-model = keras.models.load_model("cnn_merspectrogram_01.h5")
+model = keras.models.load_model("cnn_merspectrogram_02.h5")
 
 # テスト画像の読み込み
 image_path = "data/mer_spectrogram_images/disease/voice_data_bad_007.jpg"
