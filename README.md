@@ -1,22 +1,26 @@
-# CNNを用いた睡眠時無呼吸症候群の兆候の推定
+# CNNを用いた睡眠時無呼吸症候群の判別
+機械学習を使って、いびきの音から睡眠時無呼吸症候群の判別を行った。
 
-# インストール
-1. libsndfileをインストール
-http://www.mega-nerd.com/libsndfile/
 
-2. モジュールをインストール
-pip install -r requirements.txt
 
-# インストール注意事項
-1. PillowモジュールでPILが読み込めない場合があるので、site-packagesからファイル名を「`pil`」を「`PIL`」に変更する。
+学習以外のいびきの音声ファイルを使って判別させたところ、高確率で判別をすることが分かった。
 
-# 結果
 種類：呼気吸気データ  
 健常者データサイズ：58個  
 疾患のある人のデータサイズ：57個  
 epoch=200, BatchSize=10  
 loss: 0.0663 - accuracy: 0.9737  
 Test Accuracy: 0.9736841917037964  
+
+# インストール
+1. libsndfileをインストール  
+http://www.mega-nerd.com/libsndfile/
+
+2. モジュールをインストール  
+pip install -r requirements.txt
+
+# インストール注意事項
+1. PillowモジュールでPILが読み込めない場合があるので、site-packagesからファイル名を「`pil`」を「`PIL`」に変更する。
 
 # リファレンス
 [1] 音声分類を色々なモデルや特徴量でやってみた  
