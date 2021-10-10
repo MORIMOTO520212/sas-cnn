@@ -1,6 +1,9 @@
 # CNNを用いた睡眠時無呼吸症候群の判別
 機械学習を使って、いびきの音から睡眠時無呼吸症候群の判別を行った。
 
+![accuracy](https://user-images.githubusercontent.com/28892090/136691590-07d3a6de-ccae-41ec-997e-edbb33ee4db1.png)
+![recall](https://user-images.githubusercontent.com/28892090/136691597-9e695a19-476a-4abc-8a95-263d24a42c75.png)
+![precision](https://user-images.githubusercontent.com/28892090/136691603-b9cecb5e-f2a0-48d1-a487-9df1adee0742.png)
 
 学習以外のいびきの音声ファイルを使って判別させたところ、高確率で判別をすることが分かった。
 
