@@ -15,7 +15,8 @@ This is probably due to the small number of training data.
 ![recall](https://user-images.githubusercontent.com/28892090/136691597-9e695a19-476a-4abc-8a95-263d24a42c75.png)
 ![precision](https://user-images.githubusercontent.com/28892090/136691603-b9cecb5e-f2a0-48d1-a487-9df1adee0742.png)
 
-種類：呼気吸気データ  
+Class label: Health, Disease
+Data type: Expiration, Inspiration  
 健常者データサイズ：58個  
 疾患のある人のデータサイズ：57個  
 ```
