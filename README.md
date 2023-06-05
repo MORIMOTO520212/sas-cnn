@@ -1,7 +1,15 @@
-# CNNを用いた睡眠時無呼吸症候群の判別
-機械学習を使って、いびきの音から睡眠時無呼吸症候群の疑いがあるかどうかの判別を行った。  
-音声をスペクトログラム画像に変換しCNNで学習させた。
-学習以外のいびきの音声ファイルを使って判別させたところ、グラフ上高確率で判別をしているように見えるが、実際に試したところ50%の確率で外していた。これは訓練データの数が少なかったのが原因であると考えられる。  
+# Discrimination of Sleep Apnea Syndrome(SAS) using Convolutional Neural Network(CNN)
+
+## Summary
+I was discriminate SAS of from snoring sound using Machine Learning.  
+
+Machine Learning was used to discriminate suspected SAS from snoring sound.  
+
+The snoring sound was converted to spectrogram  images and training by CNN.  
+
+I discriminated the SAS using the snoring sound data other than training data, it appeared to discriminate with a high probability on the graph, but I actually tried it, it missed it with a probability.  
+
+This is probably due to the small number of training data.  
 
 ![accuracy](https://user-images.githubusercontent.com/28892090/136691590-07d3a6de-ccae-41ec-997e-edbb33ee4db1.png)
 ![recall](https://user-images.githubusercontent.com/28892090/136691597-9e695a19-476a-4abc-8a95-263d24a42c75.png)
